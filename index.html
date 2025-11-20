@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase de Danza Contemporánea | 21 Nov</title>
+    <meta name="description"
+        content="Clase suelta de Danza Contemporánea. Viernes 21 de Noviembre. Explora el movimiento y la expresión corporal.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Background -->
+    <div class="background-image"></div>
+    <div class="overlay"></div>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="glass-card fade-in">
+                    <div class="poster-header">
+                        <div class="brand-title">
+                            <h1>NOV</h1>
+                            <h1>SIN</h1>
+                            <h1>TI</h1>
+                        </div>
+                        <div class="event-meta">
+                            <span class="edition">EDICIÓN 01</span>
+                            <button id="neodanceBtn" class="neodance-badge">NeoDance Interface ℹ️</button>
+                        </div>
+                    </div>
+
+                    <div class="content-grid">
+                        <div class="bio-section">
+                            <p class="intro-text">
+                                <strong>Exploración Contemporánea.</strong> <br>
+                                Un sistema de movimiento donde el cuerpo dicta el ritmo. Este viernes 21, activamos el
+                                modo <span style="color: #00f2ff;">NeoDance</span>. Conecta, explora y libera.
+                            </p>
+                        </div>
+
+                        <div class="details-section">
+                            <div class="detail-group">
+                                <div class="detail-item date-item">
+                                    <span class="detail-label">FECHA</span>
+                                    <span class="detail-value">Viernes 21 Nov</span>
+                                    <button id="calendarBtn" class="calendar-btn" title="Agregar a Google Calendar">
+                                        📅 +
+                                    </button>
+                                </div>
+                                <div class="detail-item time-item">
+                                    <span class="detail-label">HORA</span>
+                                    <span class="detail-value">4:30 PM - 6:00 PM</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-group location-group">
+                                <a href="https://www.google.com/maps/place/GALERIA+SAN+JOSE,+C.+San+Jos%C3%A9+303,+Cercado+De+Arequipa+04001/@-16.3986296,-71.5328165,19.5z/data=!4m6!3m5!1s0x91424a56b5ea744f:0x216c157e202bc160!8m2!3d-16.3985597!4d-71.5322427!16s%2Fg%2F11q2x8m8j3?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D"
+                                    target="_blank" class="location-link">
+                                    <span class="icon">📍</span>
+                                    <div class="location-info">
+                                        <span class="detail-label">UBICACIÓN</span>
+                                        <span class="detail-value">C. San José 303 – int N°07</span>
+                                        <span class="detail-sub">Frente al Smart Fit</span>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="price-tag">
+                                <span class="price-label">Inversión (Cupos Limitados)</span>
+                                <div class="price-value">
+                                    <span class="current-price">S/ 12.00</span>
+                                    <span class="original-price">S/ 15.00</span>
+                                </div>
+                            </div>
+
+                            <form id="whatsappForm" class="register-form">
+                                <div class="input-wrapper">
+                                    <input type="text" id="name" placeholder="Escribe tu nombre aquí..." required>
+                                </div>
+                                <button type="submit" class="btn-primary">
+                                    <span class="btn-text">Separar mi Cupo</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- NeoDance Modal -->
+    <div id="neoModal" class="modal-overlay">
+        <div class="modal-content glass-card">
+            <button class="close-modal">&times;</button>
+            <h2 class="modal-title">SYSTEM: <span style="color: #00f2ff;">NEODANCE</span></h2>
+            <div class="modal-body">
+                <p><strong>Estado:</strong> <span class="status-active">ACTIVO</span></p>
+                <p>NeoDance no es solo baile, es una <strong>arquitectura de movimiento</strong>.</p>
+                <ul class="neo-features">
+                    <li>⚡ <strong>Conexión:</strong> Sincronización mente-músculo.</li>
+                    <li>🌊 <strong>Fluidez:</strong> Transiciones sin costuras.</li>
+                    <li>🔓 <strong>Desbloqueo:</strong> Rompiendo patrones habituales.</li>
+                </ul>
+                <p class="modal-footer-text">"Tu cuerpo sabe la respuesta antes que tu mente."</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
